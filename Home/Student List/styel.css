@@ -1,0 +1,60 @@
+.Manu{
+    background-color: #47d1f3;
+    display: flex;
+    
+}
+.Manu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.Manu a:hover{
+    background-color: gray;
+
+}
+
+.Manu img{
+    width: 30px;
+    padding-right: 800px;
+    padding-left:50px ;
+}
+
+
+@media screen and (max-width:600px) {
+    .Manu{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Manu a{
+        background-color: rgb(26, 156, 243);
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+body{
+    margin: 0;
+}
+td{
+    border: 1px solid black;
+    padding: 0 50px;
+}
+p {
+    text-align: center;
+    padding: 10px;
+    margin: 2%;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 270px;
+}
+h1{ 
+    text-align: center;
+    font-size: 80px;
+}
+.H1-Fs{
+    color: #fab725;
+}
+.H1-Fs2{
+    color: #64edb8;
+}

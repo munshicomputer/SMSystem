@@ -1,0 +1,62 @@
+.Manu{
+    background-color: #47d1f3;
+    display: flex;
+    
+}
+.Manu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.Manu a:hover{
+    background-color: gray;
+
+}
+
+.Manu img{
+    width: 30px;
+    padding-right: 800px;
+    padding-left:50px ;
+}
+
+
+@media screen and (max-width:600px) {
+    .Manu{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Manu a{
+        background-color: rgb(26, 156, 243);
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    margin: 5%;
+}
+#massage{
+    padding: 20px;
+    margin: 1%;
+}
+.al{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid;
+    margin-left: 48%;
+    padding: 10px;
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.al:hover{
+    font-size: 20px;
+}

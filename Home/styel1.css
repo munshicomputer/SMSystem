@@ -1,0 +1,62 @@
+.Manu{
+    background-color: #47d1f3;
+    display: flex;
+    
+}
+.Manu a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.Manu a:hover{
+    background-color: gray;
+
+}
+
+.Manu img{
+    width: 30px;
+    padding-right: 800px;
+    padding-left:50px ;
+}
+
+
+@media screen and (max-width:600px) {
+    .Manu{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Manu a{
+        background-color: rgb(26, 156, 243);
+        margin: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+body{
+    margin: 0;
+}
+
+#H1-Had{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+#H1-color{
+    color: #fcc11f;
+}
+#H1-color2{
+    color: #3df082ef;
+}
+.Flot-img{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.Flot-img img{
+    width: 100%;
+
+}
+
+
+
